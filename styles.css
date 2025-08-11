@@ -49,6 +49,10 @@ nav{
     background-color: var(--champagne-gold);
     color: var(--midnight-blue);
 }
+nav a{
+    text-decoration: none;
+    color: var(--midnight-blue);
+}
 nav ul{
     list-style: none;
     display: flex;
@@ -65,6 +69,7 @@ main{
     flex-direction: column;
     align-items: center;
     justify-items: center;
+    color: var(--dark-charcoal);
 }
 main section{                                           /* Change width with breakpoints */
     border-bottom: var(--champagne-gold) solid 2px;
