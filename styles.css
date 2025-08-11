@@ -95,7 +95,7 @@ main section p{
     gap: 10px;
 }
 
-#offerings{
+#offering_grid div{
     background-color: var(--olive-green);
     margin: 10px;
     color: var(--soft-white);
@@ -103,7 +103,7 @@ main section p{
     box-shadow: 2px 2px 4px lightslategray;
     width: 100%;
 }
-#offerings h3,p{
+#offering_grid h3,p{
     margin: 10px;
 }
 
@@ -117,7 +117,7 @@ main section div ul{
     font-size: 1vw;
 }
 
-#gallery{
+#photos div{
     box-shadow: 2px 2px 4px lightslategray;
     border-radius: 10px;
     display: inline-block;
@@ -127,18 +127,18 @@ main section div ul{
     margin: 10px 0 10px 0;
 }
 
-#gallery img{
+#photos div img{
     border-radius: 10px 10px 0 0;
     width: 100%;
 }
 
-#gallery p{
+#photos div p{
     padding: 10px;
     font-size: 1vw;
     border-radius: 0 0 10px 10px;
 }
 
-section section{
+#photos{
     width: 100%;
     margin: 0;
     padding: 0;
@@ -197,7 +197,7 @@ footer div{
         grid-auto-rows: max-content;
         gap: 10px;
     }
-    #offering_grid #offerings:nth-of-type(3){
+    #offering_grid div:nth-of-type(3){
         grid-column: auto / span 2;
     }
 
